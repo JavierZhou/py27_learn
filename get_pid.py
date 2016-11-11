@@ -1,0 +1,1 @@
+#!/usr/bin/env python# -*- coding: utf-8 -*-### 将局部变量转化成全局变量使用globalimport os, sysdef isNum(s):    return s.isdigit()for i in os.listdir('/proc'):    if isNum(i):        print i
